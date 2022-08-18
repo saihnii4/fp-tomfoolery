@@ -2,7 +2,7 @@ import Data.List {- @TODO don't rely on prelude functions -}
 
 solve :: [Int] -> String
 solve arr
-  | a+b >= c = "YES"
+  | a+b > c = "YES"
   | otherwise = "NO"
   where (a:b:c:_) = sort arr
 
