@@ -1,4 +1,4 @@
-import Data.List {- @TODO don't rely on libraries -}
+import Data.List
 
 solve :: [Int] -> String
 solve arr
