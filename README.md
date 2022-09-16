@@ -1,3 +1,3 @@
-# Haskell Shenanigans
+# Functional Programming Tomfoolery
 
-A collage of poorly written Haskell programs
+A collage of poorly written fp programs
