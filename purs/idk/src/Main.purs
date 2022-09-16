@@ -8,7 +8,6 @@ module Main
 
 import Prelude
 
-import Data.Int as Data.Int
 import Data.Maybe (Maybe(..))
 import Data.Number (sqrt)
 import Effect (Effect)
@@ -29,7 +28,7 @@ factorial 1 = 1
 factorial n = n * (factorial (n-1))
 
 shape :: Shapes.Shape
-shape = Shapes.Triangle 1.0 1.0 (Data.Int.toNumber(1.0/sqrt(2.0)))
+shape = Shapes.Triangle 1.0 1.0 (sqrt(2.0))
 
 geometry :: Effect Unit
 geometry = case findArea shape of
