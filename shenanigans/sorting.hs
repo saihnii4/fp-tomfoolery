@@ -1,4 +1,5 @@
-{- shitty descending sort implementation in haskell -}
+{- shitty descending bubble sort half-implementation in haskell -}
+{- will not work if numbers require more than 1 interation of bubble sort -}
 largestNum :: [Int] -> [Int]
 largestNum [] = []
 largestNum [x] = [x]
